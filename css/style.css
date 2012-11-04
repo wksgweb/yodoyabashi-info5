@@ -1,0 +1,160 @@
+@charset "utf-8";
+
+body {
+	background-color: #ffffff;
+	line-height: 1.6;
+	font-size: 0.875em;
+	font-family: "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-weight: bold;
+	color:#000000;
+}
+
+a {
+	display: block;
+}
+
+a:link {
+	color: #000000;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #738261;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #738261;
+	text-decoration: none;
+}
+
+a:active {
+	color: #738261;
+	text-decoration: none;
+}
+
+/* フロート　クリア */
+.clear {
+	clear: both;
+}
+
+/* ラッパー */
+#wrapper {
+	background-color: #ffffff;
+	width: 960px;
+	margin: 0px auto;
+}
+
+/* コンテナ */
+#container {
+	padding: 10px 10px;
+}
+
+/* マーク */
+#mark {
+	background-color: #000000;
+	color: #ffffff;
+	float: right;
+	margin-top: -10px;
+	padding-left: 20px;
+	width: 130px;
+}
+
+/* ヘッダー */
+#header {
+
+}
+
+h1 {
+	float: left;
+	margin-right: 20px;
+}
+
+#header dl {
+	float: left;
+	margin-right: 60px;
+}
+
+#header dt {
+	color: #738261;
+	float: left;
+	margin-right: 20px;
+}
+
+#header dd {
+	float: right;
+}
+
+#header ul {
+
+}
+
+/* ナビゲーション */
+#navi {
+	float: right;
+	margin-top: 20px;
+}
+
+
+/* コンテンツ */
+#contents {
+	clear: both;
+	padding-top: 10px;
+}
+
+#contents h2 {
+	background-color: #afa59f;
+	color: #ffffff;
+	padding-left: 1em;
+}
+
+#contents dl {
+	float: left;
+	margin-top: 10px;
+	margin-right: 5px;
+	width: 308px;
+}
+
+#contents dl.end {
+	margin-right: 0;
+}
+
+#contents dd h3 {
+	border-left: 2px solid #afa59f;
+	margin-top: 10px;
+}
+
+#contents dd p {
+	border-left: 2px solid #afa59f;
+	font-family: "ＭＳ Ｐ明朝", serif;
+	font-size: 1.8em;
+	line-height: 1.0;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+#contents dd dt {
+	background-color: #afa59f;
+	color: #ffffff;
+	padding-left: 1em;
+}
+
+#contents dd dd p {
+	border-left:0px solid #afa59f;
+	color: #738261;
+	font-family: "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size: 1.0em;
+	line-height: 1.6;
+	padding-left: 0;
+}
+
+/* フロートクリア */
+#clearfloat {
+	clear: both;
+}
+
+/* フッター */
+#footer {
+	padding: 28px 0 28px 10px;
+	text-align: center;
+}
